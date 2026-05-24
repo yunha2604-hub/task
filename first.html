@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>기본 그리드 예제</title>
+    <style>
+        /* 그리드 컨테이너 설정 */
+        .grid-container {
+            display: grid; /* 그리드 적용 */
+            /* 1fr씩 3개의 열을 만듭니다 (동일한 비율로 3등분) */
+            grid-template-columns: repeat(3, 1fr); 
+            gap: 10px; /* 아이템 사이의 간격 */
+            padding: 10px;
+        }
+
+      
+        /* 그리드 아이템 스타일 (보기 좋게 꾸미기용) */
+        .grid-item {
+            background-color: rgb(127, 202, 15);
+            color: white;
+            padding: 20px;
+            text-align: center;
+            font-size: 20px;
+            border-radius: 5px;
+        }
+        /* 페이지 제목 가운데 정렬 */
+        h1 {
+            text-align: center;
+            margin-top: 0px;
+            margin-left: 5%;
+        }
+    </style>
+</head>
+<body>
+
+   <h1>윤하의 첫 홈페이지 뚜둥</h1>
+    <div class="grid-container">
+        <div class="grid-item">1</div>
+        <div class="grid-item">2</div>
+        <div class="grid-item">3</div>
+        <div class="grid-item">4</div>
+        <div class="grid-item">5</div>
+        <div class="grid-item">6</div>
+        <div class="grid-item">9</div>
+    </div>
+
+</body>
+</html>
