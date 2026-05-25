@@ -1,4 +1,7 @@
 {
+  "scripts": {
+    "build": "echo \"No build step\""
+  },
   "dependencies": {
     "firebase": "^12.13.0"
   }
